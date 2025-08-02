@@ -1,32 +1,32 @@
 Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.8f1 (2a5b1522e5ab) revision 2775829'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32509 MB
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32472 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-07-31T11:51:59Z
+Date: 2025-08-02T04:28:26Z
 
 COMMAND LINE ARGUMENTS:
-E:\Unity\Hub\Editor\6000.1.8f1\Editor\Unity.exe
+D:\Unity\6000.1.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/Unity/My project
+D:/Project/VR_computer
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53263
+61448
 -job-worker-count
-9
+15
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: D:/Unity/My project
-D:/Unity/My project
+Successfully changed project path to: D:/Project/VR_computer
+D:/Project/VR_computer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -62,13 +62,13 @@ D:/Unity/My project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21996]  Target information:
+Player connection [170260]  Target information:
 
-Player connection [21996]  * "[IP] 192.168.1.73 [Port] 0 [Flags] 2 [Guid] 4288446711 [EditorId] 4288446711 [Version] 1048832 [Id] WindowsEditor(7,PhamSonPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [170260]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3497557265 [EditorId] 3497557265 [Version] 1048832 [Id] WindowsEditor(7,Duy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21996] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21996] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 9
+Player connection [170260] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [170260] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,62 +79,60 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.15 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 18.27 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.8f1 (2a5b1522e5ab)
-[Subsystems] Discovering subsystems at path E:/Unity/Hub/Editor/6000.1.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/My project/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/6000.1.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project/VR_computer/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
-    Renderer:        NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer:        NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
     Vendor:          NVIDIA
-    VRAM:            12115 MB
-    App VRAM Budget: 11347 MB
-    Driver:          32.0.15.7283
+    VRAM:            7948 MB
+    App VRAM Budget: 7180 MB
+    Driver:          32.0.15.5619
 Initialize mono
-Mono path[0] = 'E:/Unity/Hub/Editor/6000.1.8f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity/Hub/Editor/6000.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity/Hub/Editor/6000.1.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Mono path[0] = 'D:/Unity/6000.1.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.1.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.1.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/Hub/Editor/6000.1.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/Unity/Hub/Editor/6000.1.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000947 seconds.
-- Loaded All Assemblies, in  0.284 seconds
+Register platform support module: D:/Unity/6000.1.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001796 seconds.
+- Loaded All Assemblies, in  0.702 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.252 seconds
-Domain Reload Profiling: 536ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1314ms
+	BeginReloadAssembly (243ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (118ms)
-		LoadAssemblies (96ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (241ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (256ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (253ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (614ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (217ms)
+		SetupLoadedEditorAssemblies (549ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (90ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			InitializePlatformSupportModulesInManaged (94ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,10 +141,9 @@ Domain Reload Profiling: 536ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.521 seconds
-Refreshing native plugins compatible for Editor in 3.45 ms, found 9 plugins.
+- Loaded All Assemblies, in  1.376 seconds
+Refreshing native plugins compatible for Editor in 13.17 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -177,64 +174,53 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.592 seconds
-Domain Reload Profiling: 1113ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  1.484 seconds
+Domain Reload Profiling: 2858ms
+	BeginReloadAssembly (306ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (338ms)
-		LoadAssemblies (217ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (913ms)
+		LoadAssemblies (609ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (187ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (129ms)
-			BuildScriptInfoCaches (34ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (593ms)
+		AnalyzeDomain (478ms)
+			TypeCache.Refresh (359ms)
+				TypeCache.ScanAssembly (330ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1484ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (495ms)
+		SetupLoadedEditorAssemblies (1256ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (127ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (707ms)
+			ProcessInitializeOnLoadMethodAttributes (322ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.32 ms, found 9 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.92 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 248 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5678 unused Assets / (4.3 MB). Loaded Objects now: 6428.
-Memory consumption went from 181.4 MB to 177.1 MB.
-Total: 6.327300 ms (FindLiveObjects: 0.534000 ms CreateObjectMapping: 0.469200 ms MarkObjects: 3.645100 ms  DeleteObjects: 1.678100 ms)
+Unloading 249 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5679 unused Assets / (3.5 MB). Loaded Objects now: 6431.
+Memory consumption went from 178.7 MB to 175.2 MB.
+Total: 16.052000 ms (FindLiveObjects: 1.362700 ms CreateObjectMapping: 0.777000 ms MarkObjects: 10.582300 ms  DeleteObjects: 3.326800 ms)
 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.69 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5614 unused Assets / (4.0 MB). Loaded Objects now: 6424.
-Memory consumption went from 145.9 MB to 141.9 MB.
-Total: 6.208100 ms (FindLiveObjects: 0.506200 ms CreateObjectMapping: 0.425400 ms MarkObjects: 3.778600 ms  DeleteObjects: 1.497100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.482 seconds
-Refreshing native plugins compatible for Editor in 3.01 ms, found 9 plugins.
+- Loaded All Assemblies, in  1.199 seconds
+Refreshing native plugins compatible for Editor in 10.13 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -261,414 +247,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.611 seconds
-Domain Reload Profiling: 1095ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  1.639 seconds
+Domain Reload Profiling: 2842ms
+	BeginReloadAssembly (338ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (283ms)
-		LoadAssemblies (206ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (737ms)
+		LoadAssemblies (543ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (122ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (611ms)
+		AnalyzeDomain (354ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (310ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1640ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
+		SetupLoadedEditorAssemblies (1323ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (326ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (869ms)
+			ProcessInitializeOnLoadMethodAttributes (225ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 3.22 ms, found 9 plugins.
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 11.57 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5679 unused Assets / (4.0 MB). Loaded Objects now: 6446.
-Memory consumption went from 213.3 MB to 209.3 MB.
-Total: 5.980600 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.391400 ms MarkObjects: 3.767900 ms  DeleteObjects: 1.393600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.19 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5612 unused Assets / (3.8 MB). Loaded Objects now: 6437.
-Memory consumption went from 156.8 MB to 153.0 MB.
-Total: 5.928600 ms (FindLiveObjects: 0.853900 ms CreateObjectMapping: 0.414700 ms MarkObjects: 3.345900 ms  DeleteObjects: 1.313100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.475 seconds
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Refreshing native plugins compatible for Editor in 3.53 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Failed to get package versions: Cannot connect to Unity Package Manager local server
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Unity.XR.CoreUtils.Editor.PackageVersionUtility:UpdatePackageVersions () (at ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs:59)
-Unity.XR.CoreUtils.Editor.PackageVersionUtility:GetPackageVersion (string) (at ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs:77)
-UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs Line: 59)
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.582 seconds
-Domain Reload Profiling: 1059ms
-	BeginReloadAssembly (149ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (277ms)
-		LoadAssemblies (200ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (117ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (583ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (471ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (302ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.25 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5677 unused Assets / (3.9 MB). Loaded Objects now: 6447.
-Memory consumption went from 207.0 MB to 203.0 MB.
-Total: 5.588600 ms (FindLiveObjects: 0.438000 ms CreateObjectMapping: 0.398100 ms MarkObjects: 3.272000 ms  DeleteObjects: 1.479800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 610529.118770 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.0/XR Interaction Simulator/XR Interaction Hand Controls.inputactions
-  artifactKey: Guid(1f7ec93f6b8c84f5981db5008b5859cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.0/XR Interaction Simulator/XR Interaction Hand Controls.inputactions using Guid(1f7ec93f6b8c84f5981db5008b5859cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '049aca3f381d2ac15e5845b827b08147') in 0.0260581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.0/XR Interaction Simulator/XR Interaction Simulator.prefab
-  artifactKey: Guid(cc469df5d167e534aa351cc732668dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.0/XR Interaction Simulator/XR Interaction Simulator.prefab using Guid(cc469df5d167e534aa351cc732668dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7490b2a9a21afd616532722e57431679') in 0.0232153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.406608 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/XR Device Controller Controls.inputactions
-  artifactKey: Guid(0be0028c24f2a4c14a96b6aa39055933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/XR Device Controller Controls.inputactions using Guid(0be0028c24f2a4c14a96b6aa39055933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df98c21ae808f4c24e9cc35535acba4a') in 0.0021703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/XR Device Simulator.prefab
-  artifactKey: Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/XR Device Simulator.prefab using Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ab7a3238736dfd5ac12876a97da5665') in 0.0230575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 825
-
-========================================================================
-Received Prepare
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.489 seconds
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Refreshing native plugins compatible for Editor in 3.52 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Failed to get package versions: Cannot connect to Unity Package Manager local server
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Unity.XR.CoreUtils.Editor.PackageVersionUtility:UpdatePackageVersions () (at ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs:59)
-Unity.XR.CoreUtils.Editor.PackageVersionUtility:GetPackageVersion (string) (at ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs:77)
-UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs Line: 59)
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.626 seconds
-Domain Reload Profiling: 1118ms
-	BeginReloadAssembly (149ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (289ms)
-		LoadAssemblies (209ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (126ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (627ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (512ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 3.46 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5678 unused Assets / (4.1 MB). Loaded Objects now: 6455.
-Memory consumption went from 200.4 MB to 196.2 MB.
-Total: 6.138700 ms (FindLiveObjects: 0.474600 ms CreateObjectMapping: 0.424200 ms MarkObjects: 3.469900 ms  DeleteObjects: 1.769200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.792 seconds
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Refreshing native plugins compatible for Editor in 4.89 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Failed to get package versions: Cannot connect to Unity Package Manager local server
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Unity.XR.CoreUtils.Editor.PackageVersionUtility:UpdatePackageVersions () (at ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs:59)
-Unity.XR.CoreUtils.Editor.PackageVersionUtility:GetPackageVersion (string) (at ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs:77)
-UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs Line: 59)
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.711 seconds
-Domain Reload Profiling: 3505ms
-	BeginReloadAssembly (450ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (148ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (2169ms)
-		LoadAssemblies (2264ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (262ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (242ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (711ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (575ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (383ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 5.21 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5677 unused Assets / (4.2 MB). Loaded Objects now: 6458.
-Memory consumption went from 204.9 MB to 200.7 MB.
-Total: 6.882800 ms (FindLiveObjects: 0.480500 ms CreateObjectMapping: 0.462400 ms MarkObjects: 4.141700 ms  DeleteObjects: 1.796700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.493 seconds
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-Refreshing native plugins compatible for Editor in 3.87 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef)
-Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator' already exists (Assets/Samples/XR Interaction Toolkit/3.2.0/XR Device Simulator/DeviceSimulator.asmdef)
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Failed to get package versions: Cannot connect to Unity Package Manager local server
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Unity.XR.CoreUtils.Editor.PackageVersionUtility:UpdatePackageVersions () (at ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs:59)
-Unity.XR.CoreUtils.Editor.PackageVersionUtility:GetPackageVersion (string) (at ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs:77)
-UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.1.1/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d/Editor/ProjectValidation/PackageVersionUtility.cs Line: 59)
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.582 seconds
-Domain Reload Profiling: 1077ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (294ms)
-		LoadAssemblies (217ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (122ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (582ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (471ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (297ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.46 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5677 unused Assets / (3.9 MB). Loaded Objects now: 6461.
-Memory consumption went from 207.4 MB to 203.5 MB.
-Total: 6.386300 ms (FindLiveObjects: 0.512100 ms CreateObjectMapping: 0.458100 ms MarkObjects: 3.737700 ms  DeleteObjects: 1.677600 ms)
+Unloading 5677 unused Assets / (5.4 MB). Loaded Objects now: 6446.
+Memory consumption went from 203.4 MB to 198.0 MB.
+Total: 13.861100 ms (FindLiveObjects: 0.696600 ms CreateObjectMapping: 0.394600 ms MarkObjects: 7.949500 ms  DeleteObjects: 4.818100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
