@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.XR;
+
 
 public class VRObject : MonoBehaviour
 {
@@ -48,7 +49,8 @@ public class VRObject : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.tag.Equals("Computer"))
+
+        if (other.tag.Equals("Main"))
         {
             gameObject.SetActive(false);
             objectInMain.SetActive(true);

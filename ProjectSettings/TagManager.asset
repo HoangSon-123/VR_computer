@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Anchor
   - Computer
+  - GPU
+  - QuatMain
+  - kitram
+  - Main
   layers:
   - Default
   - TransparentFX
